@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="12" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify text is RECIPES 'RECIPES'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'text.recipe' text is 'RECIPES'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Recipe text should be RECIPES : Actual Recipe text is RECIPES <a href="../img/VerifyTestFoodReceipeTitle_1p1e8j8nbf3pb6930.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'Biriyani'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Biriyani' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify result count</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'resultCountText.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>scroll Down To Bottom</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'resultCountText.verify' text is '10 RESULTS'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Result Count Text text should be 10 RESULTS : Actual Result Count Text text is 10 RESULTS <a href="../img/VerifySearchResults_5xt4yhjnesqt6931.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'breakfast pizza'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'breakfast pizza' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then select a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'pizzaRecipeImg.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pizzaRecipeImg.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then save a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'saveReceipeBtn.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'saveReceipeBtn.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify login message for unregistered user while save/review</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'saveMessageText.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'saveMessageText.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Save message for guest visible : Actual Save message for guest visible <a href="../img/VerifySaveRecipeActionForGuestUser_lxwk11iflqsu6932.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'breakfast pizza'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'breakfast pizza' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then select a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'pizzaRecipeImg.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pizzaRecipeImg.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then click on review btn</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'reviewBtn.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'reviewBtn.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then write a review 'Good'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'writeReview.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Good' into 'writeReview.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify login message for unregistered user while save/review</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'saveMessageText.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'saveMessageText.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Save message for guest visible : Actual Save message for guest visible <a href="../img/VerifyReviewRecipeActionForGuestUser_1ji597ijclgnp6933.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'Iphone'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Iphone' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify no match message</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'noMatchRecipeMsg.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'noMatchRecipeMsg.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected No Match Recipe Message visible : Actual No Match Recipe Message visible <a href="../img/VerifyInvalidSearch_o0ds6df9ocba6934.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When login as Reg User 'vdhuggis@gmail.com' 'Arjun@17'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signInBtn.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'logInBtn.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'logInBtn.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'emailTxt.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'emailTxt.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'vdhuggis@gmail.com' into 'emailTxt.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'pwdTxt.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pwdTxt.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Arjun@17' into 'pwdTxt.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'breakfast pizza'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'breakfast pizza' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then select a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'pizzaRecipeImg.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pizzaRecipeImg.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then save a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'saveReceipeBtn.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'saveReceipeBtn.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify saved recipe msg for Reg User</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'savedTxt.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'savedTxt.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected verify saved message for Reg User visible : Actual verify saved message for Reg User visible <a href="../img/VerifySAVESButtonFunctionality_11bz21soe4nb76935.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Food Recipe Automation" duration-ms="303180" started-at="2020-05-10T22:01:33Z" finished-at="2020-05-10T22:06:37Z">
+    <groups>
+    </groups>
+    <test name="BDD Test" duration-ms="303180" started-at="2020-05-10T22:01:33Z" finished-at="2020-05-10T22:06:37Z">
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Test Food Receipe Title" name="setupSuit" is-config="true" duration-ms="20" started-at="2020-05-10T15:01:33Z" finished-at="2020-05-10T15:01:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Test Food Receipe Title" name="setupTest" is-config="true" duration-ms="2" started-at="2020-05-10T15:01:33Z" finished-at="2020-05-10T15:01:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Test Food Receipe Title" name="setup" is-config="true" duration-ms="1" started-at="2020-05-10T15:01:33Z" finished-at="2020-05-10T15:01:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify Test Food Receipe Title( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="verify Test Food Receipe Title" name="verify Test Food Receipe Title" duration-ms="13498" started-at="2020-05-10T15:01:33Z" finished-at="2020-05-10T15:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify text is RECIPES 'RECIPES'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'text.recipe' text is 'RECIPES'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Recipe text should be RECIPES : Actual Recipe text is RECIPES <a href="../img/VerifyTestFoodReceipeTitle_1p1e8j8nbf3pb6930.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify Test Food Receipe Title -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Test Food Receipe Title" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-05-10T15:01:33Z" finished-at="2020-05-10T15:01:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Test Food Receipe Title" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-10T15:01:47Z" finished-at="2020-05-10T15:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verify Test Food Receipe Title status=SUCCESS method=scenarios.metadataexample.feature.verify Test Food Receipe Title( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify text is RECIPES 'RECIPES'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'text.recipe' text is 'RECIPES'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Recipe text should be RECIPES : Actual Recipe text is RECIPES <a href="../img/VerifyTestFoodReceipeTitle_1p1e8j8nbf3pb6930.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Test Food Receipe Title" name="afterClass" is-config="true" duration-ms="1" started-at="2020-05-10T15:01:47Z" finished-at="2020-05-10T15:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Search Results" name="setup" is-config="true" duration-ms="1" started-at="2020-05-10T15:01:47Z" finished-at="2020-05-10T15:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Search Results" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-05-10T15:01:47Z" finished-at="2020-05-10T15:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="verify Search Results( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9]" test-instance-name="verify Search Results" name="verify Search Results" duration-ms="24799" started-at="2020-05-10T15:01:47Z" finished-at="2020-05-10T15:02:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'Biriyani'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Biriyani' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify result count</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'resultCountText.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>scroll Down To Bottom</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'resultCountText.verify' text is '10 RESULTS'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Result Count Text text should be 10 RESULTS : Actual Result Count Text text is 10 RESULTS <a href="../img/VerifySearchResults_5xt4yhjnesqt6931.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify Search Results -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Search Results" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-10T15:02:12Z" finished-at="2020-05-10T15:02:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verify Search Results status=SUCCESS method=scenarios.metadataexample.feature.verify Search Results( java.util.Map)[pri:1001, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e9] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'Biriyani'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Biriyani' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify result count</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'resultCountText.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>scroll Down To Bottom</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'resultCountText.verify' text is '10 RESULTS'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Result Count Text text should be 10 RESULTS : Actual Result Count Text text is 10 RESULTS <a href="../img/VerifySearchResults_5xt4yhjnesqt6931.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Search Results" name="afterClass" is-config="true" duration-ms="1" started-at="2020-05-10T15:02:12Z" finished-at="2020-05-10T15:02:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Save Recipe Action for Guest User" name="setup" is-config="true" duration-ms="0" started-at="2020-05-10T15:02:12Z" finished-at="2020-05-10T15:02:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Save Recipe Action for Guest User" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-05-10T15:02:12Z" finished-at="2020-05-10T15:02:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="verify Save Recipe Action for Guest User( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea]" test-instance-name="verify Save Recipe Action for Guest User" name="verify Save Recipe Action for Guest User" duration-ms="66176" started-at="2020-05-10T15:02:12Z" finished-at="2020-05-10T15:03:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'breakfast pizza'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'breakfast pizza' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then select a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'pizzaRecipeImg.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pizzaRecipeImg.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then save a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'saveReceipeBtn.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'saveReceipeBtn.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify login message for unregistered user while save/review</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'saveMessageText.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'saveMessageText.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Save message for guest visible : Actual Save message for guest visible <a href="../img/VerifySaveRecipeActionForGuestUser_lxwk11iflqsu6932.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify Save Recipe Action for Guest User -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Save Recipe Action for Guest User" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-10T15:03:18Z" finished-at="2020-05-10T15:03:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verify Save Recipe Action for Guest User status=SUCCESS method=scenarios.metadataexample.feature.verify Save Recipe Action for Guest User( java.util.Map)[pri:1002, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ea] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'breakfast pizza'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'breakfast pizza' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then select a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'pizzaRecipeImg.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pizzaRecipeImg.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then save a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'saveReceipeBtn.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'saveReceipeBtn.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify login message for unregistered user while save/review</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'saveMessageText.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'saveMessageText.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Save message for guest visible : Actual Save message for guest visible <a href="../img/VerifySaveRecipeActionForGuestUser_lxwk11iflqsu6932.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Review Recipe Action for Guest User" name="setup" is-config="true" duration-ms="1" started-at="2020-05-10T15:03:18Z" finished-at="2020-05-10T15:03:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Save Recipe Action for Guest User" name="afterClass" is-config="true" duration-ms="0" started-at="2020-05-10T15:03:18Z" finished-at="2020-05-10T15:03:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Review Recipe Action for Guest User" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-05-10T15:03:18Z" finished-at="2020-05-10T15:03:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="verify Review Recipe Action for Guest User( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb]" test-instance-name="verify Review Recipe Action for Guest User" name="verify Review Recipe Action for Guest User" duration-ms="86889" started-at="2020-05-10T15:03:18Z" finished-at="2020-05-10T15:04:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'breakfast pizza'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'breakfast pizza' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then select a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'pizzaRecipeImg.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pizzaRecipeImg.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then click on review btn</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'reviewBtn.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'reviewBtn.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then write a review 'Good'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'writeReview.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Good' into 'writeReview.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify login message for unregistered user while save/review</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'saveMessageText.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'saveMessageText.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Save message for guest visible : Actual Save message for guest visible <a href="../img/VerifyReviewRecipeActionForGuestUser_1ji597ijclgnp6933.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify Review Recipe Action for Guest User -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Review Recipe Action for Guest User" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-10T15:04:45Z" finished-at="2020-05-10T15:04:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verify Review Recipe Action for Guest User status=SUCCESS method=scenarios.metadataexample.feature.verify Review Recipe Action for Guest User( java.util.Map)[pri:1003, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3eb] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'breakfast pizza'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'breakfast pizza' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then select a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'pizzaRecipeImg.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pizzaRecipeImg.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then click on review btn</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'reviewBtn.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'reviewBtn.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then write a review 'Good'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'writeReview.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Good' into 'writeReview.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify login message for unregistered user while save/review</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'saveMessageText.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'saveMessageText.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Save message for guest visible : Actual Save message for guest visible <a href="../img/VerifyReviewRecipeActionForGuestUser_1ji597ijclgnp6933.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Review Recipe Action for Guest User" name="afterClass" is-config="true" duration-ms="0" started-at="2020-05-10T15:04:45Z" finished-at="2020-05-10T15:04:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Invalid Search" name="setup" is-config="true" duration-ms="0" started-at="2020-05-10T15:04:45Z" finished-at="2020-05-10T15:04:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Invalid Search" name="setupMethod" is-config="true" duration-ms="1" started-at="2020-05-10T15:04:45Z" finished-at="2020-05-10T15:04:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="verify Invalid Search( java.util.Map)[pri:1004, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec]" test-instance-name="verify Invalid Search" name="verify Invalid Search" duration-ms="24824" started-at="2020-05-10T15:04:45Z" finished-at="2020-05-10T15:05:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'Iphone'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Iphone' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify no match message</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'noMatchRecipeMsg.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'noMatchRecipeMsg.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected No Match Recipe Message visible : Actual No Match Recipe Message visible <a href="../img/VerifyInvalidSearch_o0ds6df9ocba6934.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify Invalid Search -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Invalid Search" name="afterClass" is-config="true" duration-ms="1" started-at="2020-05-10T15:05:10Z" finished-at="2020-05-10T15:05:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Invalid Search" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-10T15:05:10Z" finished-at="2020-05-10T15:05:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verify Invalid Search status=SUCCESS method=scenarios.metadataexample.feature.verify Invalid Search( java.util.Map)[pri:1004, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ec] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to recipe page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipeLink.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipeLink.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'Iphone'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Iphone' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify no match message</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'noMatchRecipeMsg.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'noMatchRecipeMsg.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected No Match Recipe Message visible : Actual No Match Recipe Message visible <a href="../img/VerifyInvalidSearch_o0ds6df9ocba6934.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Verify SAVES Button functionality" name="setup" is-config="true" duration-ms="0" started-at="2020-05-10T15:05:10Z" finished-at="2020-05-10T15:05:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Verify SAVES Button functionality( java.util.Map)[pri:1005, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Verify SAVES Button functionality" name="Verify SAVES Button functionality" duration-ms="86537" started-at="2020-05-10T15:05:10Z" finished-at="2020-05-10T15:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{searchtext=breakfast pizza, Reviewcomment=Good, searchRecipe=Biriyani, Invalidsearch=Iphone, recipeTittle=RECIPES, username=vdhuggis@gmail.com, password=Arjun@17, __index=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When login as Reg User 'vdhuggis@gmail.com' 'Arjun@17'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signInBtn.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'logInBtn.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'logInBtn.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'emailTxt.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'emailTxt.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'vdhuggis@gmail.com' into 'emailTxt.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'pwdTxt.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pwdTxt.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Arjun@17' into 'pwdTxt.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'breakfast pizza'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'breakfast pizza' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then select a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'pizzaRecipeImg.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pizzaRecipeImg.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then save a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'saveReceipeBtn.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'saveReceipeBtn.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify saved recipe msg for Reg User</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'savedTxt.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'savedTxt.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected verify saved message for Reg User visible : Actual verify saved message for Reg User visible <a href="../img/VerifySAVESButtonFunctionality_11bz21soe4nb76935.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify SAVES Button functionality -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Verify SAVES Button functionality" name="setupMethod" is-config="true" duration-ms="0" started-at="2020-05-10T15:05:10Z" finished-at="2020-05-10T15:05:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Verify SAVES Button functionality" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-10T15:06:36Z" finished-at="2020-05-10T15:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Verify SAVES Button functionality status=SUCCESS method=scenarios.metadataexample.feature.Verify SAVES Button functionality( java.util.Map)[pri:1005, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When login as Reg User 'vdhuggis@gmail.com' 'Arjun@17'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'signInBtn.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'logInBtn.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'logInBtn.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'emailTxt.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'emailTxt.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'vdhuggis@gmail.com' into 'emailTxt.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'pwdTxt.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pwdTxt.click'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Arjun@17' into 'pwdTxt.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then navigate to search page</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipe.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipe.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then search recipe 'breakfast pizza'</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'recipetype.search' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'recipetype.search'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'breakfast pizza' into 'recipetype.search'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then select a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'pizzaRecipeImg.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'pizzaRecipeImg.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then save a recipe</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'saveReceipeBtn.click' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'saveReceipeBtn.click'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify saved recipe msg for Reg User</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>wait until 'savedTxt.verify' to be visible</div><div  class="teststeppass"><span class="teststeppass-label">T </span>assert 'savedTxt.verify' is visible</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected verify saved message for Reg User visible : Actual verify saved message for Reg User visible <a href="../img/VerifySAVESButtonFunctionality_11bz21soe4nb76935.png" target="_blank">[View Screenshot]</a> </div></div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="Verify SAVES Button functionality" name="afterClass" is-config="true" duration-ms="0" started-at="2020-05-10T15:06:36Z" finished-at="2020-05-10T15:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Test Food Receipe Title" name="afterTest" is-config="true" duration-ms="101" started-at="2020-05-10T15:06:36Z" finished-at="2020-05-10T15:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3ed]" test-instance-name="verify Test Food Receipe Title" name="afterSuit" is-config="true" duration-ms="2" started-at="2020-05-10T15:06:37Z" finished-at="2020-05-10T15:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d2a209c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- Food Recipe Automation -->
+</testng-results>
